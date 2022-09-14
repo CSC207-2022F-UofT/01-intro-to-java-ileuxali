@@ -101,7 +101,7 @@ public class Basics {
          * Current count: 1
          * Current count: 0
          */
-        for (int i = 10; i > 0;  i--){
+        for (int i = 10; i >= 0;  i--){
             System.out.println("Current count: " + i);
         }
 
@@ -148,7 +148,7 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
         String[] splited= to_split.split(" ");
         for (int i = 0; i < 8; i++){
-            ret.append(splited[i].charAt[0]);
+            ret.append(splited[i].charAt(0));
         }
 
         // Fill in the rest of the body here
@@ -180,7 +180,7 @@ public class Basics {
          *                (e.g. arr[i] gives you the item at index i).
          */
         
-        for(int i = 0; i < arr.length(); i++){
+        for(int i = 0; i < arr.length; i++){
             if ((i+1)/2==0) { current_sum = current_sum + arr[i];}
         }
 
