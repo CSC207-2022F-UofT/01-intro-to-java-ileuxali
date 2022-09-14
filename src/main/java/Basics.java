@@ -181,7 +181,7 @@ public class Basics {
          */
         
         for(int i = 0; i < arr.length; i++){
-            if ((i+1)/2==0) { current_sum = current_sum + arr[i];}
+            if ((i+1) % 2 == 0) { current_sum = current_sum + arr[i];}
         }
 
         return current_sum;
